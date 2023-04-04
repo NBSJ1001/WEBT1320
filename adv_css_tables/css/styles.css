@@ -1,0 +1,138 @@
+body {
+    background-color: #403C29;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+    width: 80%;
+}
+
+h1, h2, h3 {
+    color: #403C29;
+    text-align: center;
+}
+
+#container {
+    background-color: #D9C196;
+    width: 75%;
+    margin: 20px auto;
+    border: 4px solid #A68A72;
+}
+
+nav {
+    background-color: #A68A72;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: #D9C196;
+    width: 200px;
+    height: 70px;
+    line-height: 60px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #403C29;
+    text-decoration: none;
+    border: 6px double #403C29;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+nav li a:hover {
+    background-color: #A68A72;
+    color: #D9C196;
+    border: 6px double #D9C196;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    border: 2px solid #A68A72;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 20%;
+}
+
+.single_page {
+    width: 100%
+}
+
+#main_img_resize {
+    width: 100%;
+    height: 78%
+}
+
+#lower_area {
+    display: flex;
+}
+
+.col {
+    border: 2px solid #A68A72;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #A68A72;
+    padding: 10px 0;
+    color: #403C29;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 13px;
+    background-color: #403C29;
+    color: #A68A72;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #403C29;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #D9C196;
+    border-color: #403C29;
+}
+
+table {
+    border: 4px solid #403C29;
+}
+td, tr {
+    border: 10px double #A68A72;
+    padding: 10px;
+    margin: 10px;
+}
+
+td img {
+    width: 35%;
+    height: 35%;
+}
