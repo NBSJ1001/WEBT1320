@@ -1,0 +1,169 @@
+body {
+    background-color: #403C29;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    color: #403C29;
+    text-align: center;
+}
+
+#container {
+    background-color: #D9C196;
+}
+
+nav {
+    background-color: #A68A72;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid #403C29;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #D9C196;
+    color: #403C29;
+    text-decoration: none;
+    padding: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: #A68A72;
+    color: #403C29;
+    border-color: #403C29;
+}
+
+main {
+    padding: 10px;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid #403C29;
+}
+
+footer {
+    background-color: #A68A72;
+    color: #403C29;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 13px;
+    background-color: #403C29;
+    color: #A68A72;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #403C29;
+    border-radius: 5px;
+}
+
+table {
+    border: #403C29;
+}
+
+tr, td {
+    border: 4px solid #403C29;
+}
+
+.button:hover {
+    background-color: #D9C196;
+    border-color: #403C29;
+}
+
+@media (min-width: 786px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 175px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid #403C29
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #403C29;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        border: 2px solid #403C29;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    section img {
+        width: 70%;
+    }
+    
+}
